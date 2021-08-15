@@ -1,3 +1,5 @@
+本项目是基于geek time `设计模式之美`编写的golang实现
+
 ![20210624002157](https://raw.githubusercontent.com/litao-2071/static-res/master/docs-images/20210624002157.png)
 
 关系脑图(描述设计模式和设计原则的关系，每个设计模式的作用)

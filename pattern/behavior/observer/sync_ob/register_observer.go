@@ -1,4 +1,4 @@
-package base
+package sync_ob
 
 import (
 	"fmt"
