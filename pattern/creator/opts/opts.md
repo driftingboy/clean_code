@@ -1,3 +1,5 @@
+
+
 自己的项目调用这两个包时，有如下的代码（如果有兴趣可以自己去github上看完整的源码）
 1、用elastic包构建聚合查询
 
@@ -63,6 +65,7 @@ func (a *Agency)SetProtocol(p string) {
 func (a *Agency)SetTimeout(t time.Duration) {
    a.Timeout = t
 }
+如果设置函数里要校验，错误可以不返回先保存在 Agency 中
 调用者使用方式：
 
 a1 := NewAgency(ip)

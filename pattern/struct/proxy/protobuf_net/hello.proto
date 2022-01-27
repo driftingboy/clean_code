@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package demo;
+
+option go_package = "main";
+
+service HelloService {
+    rpc Hello (HelloRequest) returns (HelloResponse);
+}
+
+message HelloRequest {
+    string mess = 1;
+}
+message HelloResponse {
+    string mess = 1;
+}
